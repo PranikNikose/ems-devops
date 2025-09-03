@@ -7,9 +7,6 @@ cat <<EOF > /usr/share/nginx/html/assets/config.json
 }
 EOF
 
-
-
-
 # Start nginx
 nginx -g 'daemon off;'
 
